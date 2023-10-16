@@ -1,0 +1,25 @@
+
+.header {
+  margin: 0;
+  padding: 16px 80px 16px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 12px;
+}
+
+.header nav {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+
+}
+
+.header nav a {
+  color: #4B5563;
+}

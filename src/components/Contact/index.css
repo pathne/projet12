@@ -1,0 +1,106 @@
+
+.contact {
+    padding: 96px 80px 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.contact h2 {
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #E5E7EB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact p {
+    max-width: 700px;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    color: #4B5563;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.contact-email-container {
+    margin: 48px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-email-container button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  position: relative;
+}
+
+.contact-email-container a {
+    margin: 0;
+    padding: 0;
+    color: #111827;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.72px;
+}
+
+.contact-email-copied {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + 5px);
+    border-radius: 5px;
+    background-color: rgb(100,100,100);
+    color: rgb(255,255,255);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 10px;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 690px) {
+
+    .contact {
+        padding: 96px 24px 50px 24px;
+    }
+
+    .contact-email-container {
+        margin: 0px;
+        margin-bottom: 48px;
+        margin-top: 16px;
+        gap: 16px;
+    }
+
+    .contact-email-container a {
+        font-size: 20px;
+
+    }
+
+    .contact-email-copied {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+    }
+}

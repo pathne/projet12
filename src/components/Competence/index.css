@@ -1,0 +1,160 @@
+
+.skills {
+    padding: 96px 80px 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.skills h2 {
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #E5E7EB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.competence {
+    width: 100%;
+    margin: 48px 50px 48px 50px;
+
+}
+
+.competence-container {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+.competence-detail {
+    padding: 32px;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.competence-detail-image {
+    flex-grow: 1;
+    padding-right: 32px;
+}
+
+.competence-detail-content {
+    flex-grow: 2;
+}
+
+.competence-title {
+    display: flex;
+    align-items: center;
+}
+
+.competence-title h3 {
+    flex-grow: 1;
+}
+
+.competence-list {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.competence-techno {
+}
+
+.competence-techno ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    max-width: 1000px;
+    gap: 24px;
+}
+
+.competence-techno li {
+    margin-left: 32px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competence-techno img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1054px) {
+    .skills {
+        padding: 96px 10px 98px 10px;
+    }
+
+    .competence {
+        margin: 48px 10px 48px 10px;
+        background-color: rgb(255,0,0);
+    }
+
+    .competence-container {
+    }
+
+    .competence-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .competence-title h3 {
+        padding-top: 16px;
+        order: 2;
+    }
+
+    .competence-title p {
+        padding-top: 16px;
+        order: 1;
+    }
+
+    .competence-detail {
+        box-sizing: border-box;
+        padding: 32px 8px 32px 8px;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .competence-list {
+        font-size: 15px;
+    }
+
+
+    .competence-techno {
+    }
+
+    .competence-techno ul {
+    }
+
+    .competence-techno li {
+        margin-left: 24px;
+        margin-right: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .competence-techno img {
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+    }
+}
